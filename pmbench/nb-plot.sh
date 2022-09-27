@@ -6,13 +6,14 @@
 }
 
 lkpdir=/home/yifeng/git/lkp-tests/tools
-datadir=/lkp/result/pmbench/1-1-even-performance-yhnb69-2000-60G-1-even-64-1-normal_ih-80-1800s-0-100-7-4096M-never-never/ddst-PowerEdge-R750/ubuntu/defconfig/gcc-11/5.15.0tiering0.8/0
+datadir=$PWD/../result/$1/result
 oname=$1
-odir=~/report/tmp/$oname
+odir=$PWD/../result/$1/report
 rm -rf "$odir"
 mkdir -p $odir
 cd $datadir
-ruby $lkpdir/matrix2csv matrix.json* $odir/matrix.csv
+cp matrix.csv $odir/matrix.csv
+#ruby $lkpdir/matrix2csv matrix.json* $odir/matrix.csv
 #cp cat-proc-pid $odir
 #cp ftrace.data.xz $odir
 #cp kmsg.xz $odir

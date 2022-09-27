@@ -16,3 +16,5 @@ cd test/
 cd pmbench
 ./usemem.sh 
 sudo lkp run ./60G-4G-64-tiering.yaml
+
+swapoff -a
