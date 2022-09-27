@@ -1,0 +1,170 @@
+ Percent |	Source code & Disassembly of elf for cycles:pp (1 samples, percent: local period)
+-------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         : 3                Disassembly of section .text:
+         :
+         : 5                ffffffff81304c20 <arch_local_save_flags>:
+         : 6                arch_local_save_flags():
+         : 682              #define __PV_IS_CALLEE_SAVE(func)                       \
+         : 683              ((struct paravirt_callee_save) { func })
+         :
+         : 685              #ifdef CONFIG_PARAVIRT_XXL
+         : 686              static inline notrace unsigned long arch_local_save_flags(void)
+         : 687              {
+    0.00 :   ffffffff81304c20:       push   %rbp
+    0.00 :   ffffffff81304c21:       mov    %rsp,%rbp
+         : 683              return PVOP_ALT_CALLEE0(unsigned long, irq.save_fl, "pushf; pop %%rax;",
+  100.00 :   ffffffff81304c24:       call   *0xffffffff82845d50
+         : 685              ALT_NOT(X86_FEATURE_XENPV));
+         : 686              }
+    0.00 :   ffffffff81304c2b:       pop    %rbp
+    0.00 :   ffffffff81304c2c:       ret
+ Percent |	Source code & Disassembly of elf for cycles:pp (1 samples, percent: local period)
+-------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         : 3                Disassembly of section .text:
+         :
+         : 5                ffffffff81086aa0 <native_flush_tlb_one_user>:
+         : 6                native_flush_tlb_one_user():
+         :
+         : 1124             /*
+         : 1125             * Flush one page in the user mapping
+         : 1126             */
+         : 1127             STATIC_NOPV void native_flush_tlb_one_user(unsigned long addr)
+         : 1128             {
+    0.00 :   ffffffff81086aa0:       call   ffffffff81072600 <__fentry__>
+    0.00 :   ffffffff81086aa5:       push   %rbp
+    0.00 :   ffffffff81086aa6:       mov    %rsp,%rbp
+    0.00 :   ffffffff81086aa9:       and    $0xfffffffffffffff0,%rsp
+    0.00 :   ffffffff81086aad:       sub    $0x20,%rsp
+    0.00 :   ffffffff81086ab1:       mov    %gs:0x28,%rax
+    0.00 :   ffffffff81086aba:       mov    %rax,0x18(%rsp)
+    0.00 :   ffffffff81086abf:       xor    %eax,%eax
+         : 1124             u32 loaded_mm_asid = this_cpu_read(cpu_tlbstate.loaded_mm_asid);
+    0.00 :   ffffffff81086ac1:       mov    %gs:0x7efa1b47(%rip),%ax        # 28610 <cpu_tlbstate+0x10>
+         :
+         : 1127             asm volatile("invlpg (%0)" ::"r" (addr) : "memory");
+    0.00 :   ffffffff81086ac9:       invlpg (%rdi)
+         : 1129             _static_cpu_has():
+         : 179              * majority of cases and you should stick to using it as it is generally
+         : 180              * only two instructions: a RIP-relative MOV and a TEST.
+         : 181              */
+         : 182              static __always_inline bool _static_cpu_has(u16 bit)
+         : 183              {
+         : 184              asm_volatile_goto(
+  100.00 :   ffffffff81086acc:       jmp    ffffffff82c227d2 <_einittext+0x94d>
+         : 186              x86_this_cpu_constant_test_bit():
+         : 365              {
+         : 366              unsigned long __percpu *a =
+         : 367              (unsigned long __percpu *)addr + nr / BITS_PER_LONG;
+         :
+         : 369              #ifdef CONFIG_X86_64
+         : 370              return ((1UL << (nr % BITS_PER_LONG)) & raw_cpu_read_8(*a)) != 0;
+    0.00 :   ffffffff81086ad1:       mov    %gs:0x7ef8a9bf(%rip),%rdx        # 11498 <cpu_info+0x38>
+         : 372              native_flush_tlb_one_user():
+         :
+         : 1136             /*
+         : 1137             * Some platforms #GP if we call invpcid(type=1/2) before CR4.PCIDE=1.
+         : 1138             * Just use invalidate_user_asid() in case we are called early.
+         : 1139             */
+         : 1140             if (!this_cpu_has(X86_FEATURE_INVPCID_SINGLE))
+    0.00 :   ffffffff81086ad9:       bt     $0x27,%rdx
+    0.00 :   ffffffff81086ade:       jae    ffffffff81086b0c <native_flush_tlb_one_user+0x6c>
+         : 1143             kern_pcid():
+         : 141              return asid + 1;
+    0.00 :   ffffffff81086ae0:       add    $0x1,%eax
+         : 143              __invpcid():
+         : 8                #define _ASM_X86_INVPCID
+         :
+         : 10               static inline void __invpcid(unsigned long pcid, unsigned long addr,
+         : 11               unsigned long type)
+         : 12               {
+         : 13               struct { u64 d[2]; } desc = { { pcid, addr } };
+    0.00 :   ffffffff81086ae3:       mov    %rdi,0x8(%rsp)
+         : 15               user_pcid():
+         : 151              ret |= 1 << X86_CR3_PTI_PCID_USER_BIT;
+    0.00 :   ffffffff81086ae8:       or     $0x8,%ah
+         : 153              native_flush_tlb_one_user():
+         : 1138             invalidate_user_asid(loaded_mm_asid);
+         : 1139             else
+         : 1140             invpcid_flush_one(user_pcid(loaded_mm_asid), addr);
+    0.00 :   ffffffff81086aeb:       movzwl %ax,%eax
+    0.00 :   ffffffff81086aee:       mov    %rax,(%rsp)
+         : 1143             __invpcid():
+         : 16               * The memory clobber is because the whole point is to invalidate
+         : 17               * stale TLB entries and, especially if we're flushing global
+         : 18               * mappings, we don't want the compiler to reorder any subsequent
+         : 19               * memory accesses before the TLB flush.
+         : 20               */
+         : 21               asm volatile("invpcid %[desc], %[type]"
+    0.00 :   ffffffff81086af2:       xor    %eax,%eax
+    0.00 :   ffffffff81086af4:       invpcid (%rsp),%rax
+         : 24               native_flush_tlb_one_user():
+         : 1139             }
+    0.00 :   ffffffff81086afa:       mov    0x18(%rsp),%rax
+    0.00 :   ffffffff81086aff:       sub    %gs:0x28,%rax
+    0.00 :   ffffffff81086b08:       jne    ffffffff81086b16 <native_flush_tlb_one_user+0x76>
+    0.00 :   ffffffff81086b0a:       leave
+    0.00 :   ffffffff81086b0b:       ret
+         : 1136             invalidate_user_asid(loaded_mm_asid);
+    0.00 :   ffffffff81086b0c:       movzwl %ax,%edi
+    0.00 :   ffffffff81086b0f:       call   ffffffff81085c70 <invalidate_user_asid>
+    0.00 :   ffffffff81086b14:       jmp    ffffffff81086afa <native_flush_tlb_one_user+0x5a>
+         : 1139             }
+    0.00 :   ffffffff81086b16:       call   ffffffff81c032d0 <__stack_chk_fail>
+ Percent |	Source code & Disassembly of elf for cycles:pp (4 samples, percent: local period)
+-------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         : 3                Disassembly of section .text:
+         :
+         : 5                ffffffff8107b8b0 <native_write_msr>:
+         : 6                native_write_msr():
+         : 159              }
+         :
+         : 161              /* Can be uninlined because referenced by paravirt */
+         : 162              static inline void notrace
+         : 163              native_write_msr(unsigned int msr, u32 low, u32 high)
+         : 164              {
+    0.00 :   ffffffff8107b8b0:       mov    %esi,%eax
+         : 166              __wrmsr():
+         : 103              asm volatile("1: wrmsr\n"
+    0.00 :   ffffffff8107b8b2:       mov    %edi,%ecx
+  100.00 :   ffffffff8107b8b4:       wrmsr
+         : 106              arch_static_branch():
+         :
+         : 28               #ifdef CONFIG_STACK_VALIDATION
+         :
+         : 30               static __always_inline bool arch_static_branch(struct static_key *key, bool branch)
+         : 31               {
+         : 32               asm_volatile_goto("1:"
+    0.00 :   ffffffff8107b8b6:       xchg   %ax,%ax
+         : 32               "jmp %l[l_yes] # objtool NOPs this \n\t"
+         : 33               JUMP_TABLE_ENTRY
+         : 34               : :  "i" (key), "i" (2 | branch) : : l_yes);
+         :
+         : 36               return false;
+    0.00 :   ffffffff8107b8b8:       ret
+         : 38               native_write_msr():
+         : 159              {
+    0.00 :   ffffffff8107b8b9:       push   %rbp
+         : 163              __wrmsr(msr, low, high);
+         :
+         : 165              if (tracepoint_enabled(write_msr))
+         : 166              do_trace_write_msr(msr, ((u64)high << 32 | low), 0);
+    0.00 :   ffffffff8107b8ba:       shl    $0x20,%rdx
+    0.00 :   ffffffff8107b8be:       mov    %rdx,%rsi
+    0.00 :   ffffffff8107b8c1:       xor    %edx,%edx
+    0.00 :   ffffffff8107b8c3:       or     %rax,%rsi
+         : 159              {
+    0.00 :   ffffffff8107b8c6:       mov    %rsp,%rbp
+         : 163              do_trace_write_msr(msr, ((u64)high << 32 | low), 0);
+    0.00 :   ffffffff8107b8c9:       call   ffffffff815e6f40 <do_trace_write_msr>
+         : 164              }
+    0.00 :   ffffffff8107b8ce:       pop    %rbp
+    0.00 :   ffffffff8107b8cf:       ret

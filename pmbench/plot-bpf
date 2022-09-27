@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+target=${1:-bpf}
+
+tool=promotestat
+
+#set -e
+
+d=$PWD
+tmpd="$HOME/report/tmp/${target}"
+
+# trap "rm -rf $tmpd/bpf*" EXIT
+
+n=1
+for f in $d/result/bpfcc-tools*; do
+	echo $f
+	rtmpd=${tmpd}/bpf${n}
+	rm -rf $rtmpd
+	mkdir -p $rtmpd
+	cd $rtmpd
+
+	toolf=$(grep tool: $f | cut -d ':' -f 2)
+	toolf=${toolf## }
+	[ -z "$toolf" ] && toolf=$tool
+	echo $toolf
+	ruby $d/plot-${toolf}.rb < $f
+	convert -delay 100 *.png ${tmpd}/bpf-${n}.gif
+	((n++))
+done
