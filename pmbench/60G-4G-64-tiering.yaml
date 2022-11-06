@@ -24,7 +24,7 @@ bpfcc-tools:
 memory--numa_stat: 
 mpstat:
   per_node: 1
-  nodes: ALL
+  nodes: 0
 nr_processes: 64
 nr_threads: 1
 pattern: normal_ih

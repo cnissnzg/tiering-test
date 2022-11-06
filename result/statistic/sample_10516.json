@@ -1,0 +1,4580 @@
+[
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 193276069585,
+            "hit": 45,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 330,
+            "avg_msec": 1320,
+            "hit": 32239,
+            "sample": 458752
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 308,
+            "avg_msec": 1232,
+            "hit": 32284,
+            "sample": 491520
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 308,
+            "avg_msec": 1232,
+            "hit": 32284,
+            "sample": 491520
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5390261014188,
+            "hit": 1255,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 338,
+            "avg_msec": 1352,
+            "hit": 33017,
+            "sample": 524288
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5390261014188,
+            "hit": 1255,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 338,
+            "avg_msec": 1352,
+            "hit": 33017,
+            "sample": 524288
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6433955632432,
+            "hit": 1498,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 318,
+            "avg_msec": 1272,
+            "hit": 34272,
+            "sample": 557056
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5952914670112,
+            "hit": 1386,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 300,
+            "avg_msec": 1200,
+            "hit": 35770,
+            "sample": 589824
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5952914670112,
+            "hit": 1386,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 300,
+            "avg_msec": 1200,
+            "hit": 35770,
+            "sample": 589824
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 10282311396484,
+            "hit": 2394,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 284,
+            "avg_msec": 1136,
+            "hit": 37156,
+            "sample": 622592
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2134632777176,
+            "hit": 497,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 269,
+            "avg_msec": 1076,
+            "hit": 39550,
+            "sample": 655360
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 25770225213,
+            "hit": 6,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 256,
+            "avg_msec": 1024,
+            "hit": 40047,
+            "sample": 688128
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 25770225213,
+            "hit": 6,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 256,
+            "avg_msec": 1024,
+            "hit": 40047,
+            "sample": 688128
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 244,
+            "avg_msec": 976,
+            "hit": 40053,
+            "sample": 720896
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 244,
+            "avg_msec": 976,
+            "hit": 40053,
+            "sample": 720896
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 244,
+            "avg_msec": 976,
+            "hit": 40053,
+            "sample": 720896
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2568435620318,
+            "hit": 598,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 244,
+            "avg_msec": 976,
+            "hit": 40053,
+            "sample": 720896
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6734629948248,
+            "hit": 1568,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 233,
+            "avg_msec": 932,
+            "hit": 40651,
+            "sample": 753664
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6734629948248,
+            "hit": 1568,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 233,
+            "avg_msec": 932,
+            "hit": 40651,
+            "sample": 753664
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6494110123777,
+            "hit": 1512,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 223,
+            "avg_msec": 892,
+            "hit": 42219,
+            "sample": 786432
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8276557783644,
+            "hit": 1927,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 214,
+            "avg_msec": 856,
+            "hit": 43731,
+            "sample": 819200
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1743790266195,
+            "hit": 406,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 205,
+            "avg_msec": 820,
+            "hit": 45658,
+            "sample": 851968
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1743790266195,
+            "hit": 406,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 205,
+            "avg_msec": 820,
+            "hit": 45658,
+            "sample": 851968
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 21475258427,
+            "hit": 5,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 197,
+            "avg_msec": 788,
+            "hit": 46064,
+            "sample": 884736
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 189,
+            "avg_msec": 756,
+            "hit": 46069,
+            "sample": 917504
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 189,
+            "avg_msec": 756,
+            "hit": 46069,
+            "sample": 917504
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2083102212070,
+            "hit": 485,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 189,
+            "avg_msec": 756,
+            "hit": 46069,
+            "sample": 917504
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3195522425902,
+            "hit": 744,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 212,
+            "avg_msec": 848,
+            "hit": 46554,
+            "sample": 950272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2757427742686,
+            "hit": 642,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 204,
+            "avg_msec": 816,
+            "hit": 47298,
+            "sample": 983040
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2757427742686,
+            "hit": 642,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 204,
+            "avg_msec": 816,
+            "hit": 47298,
+            "sample": 983040
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 12468560806357,
+            "hit": 2903,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 197,
+            "avg_msec": 788,
+            "hit": 47940,
+            "sample": 1015808
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 7512064011714,
+            "hit": 1749,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 190,
+            "avg_msec": 760,
+            "hit": 50843,
+            "sample": 1048576
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 7512064011714,
+            "hit": 1749,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 190,
+            "avg_msec": 760,
+            "hit": 50843,
+            "sample": 1048576
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1597763844185,
+            "hit": 372,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 184,
+            "avg_msec": 736,
+            "hit": 52592,
+            "sample": 1081344
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4295065866,
+            "hit": 1,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 178,
+            "avg_msec": 712,
+            "hit": 52964,
+            "sample": 1114112
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4295065866,
+            "hit": 1,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 178,
+            "avg_msec": 712,
+            "hit": 52964,
+            "sample": 1114112
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 172,
+            "avg_msec": 688,
+            "hit": 52965,
+            "sample": 1146880
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 172,
+            "avg_msec": 688,
+            "hit": 52965,
+            "sample": 1146880
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2409534944443,
+            "hit": 561,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 191,
+            "avg_msec": 764,
+            "hit": 53334,
+            "sample": 1179648
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2409534944443,
+            "hit": 561,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 191,
+            "avg_msec": 764,
+            "hit": 53334,
+            "sample": 1179648
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4977989572346,
+            "hit": 1159,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 185,
+            "avg_msec": 740,
+            "hit": 53895,
+            "sample": 1212416
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3247076502872,
+            "hit": 756,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 180,
+            "avg_msec": 720,
+            "hit": 55054,
+            "sample": 1245184
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3247076502872,
+            "hit": 756,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 180,
+            "avg_msec": 720,
+            "hit": 55054,
+            "sample": 1245184
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5347370253545,
+            "hit": 1245,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 175,
+            "avg_msec": 700,
+            "hit": 55810,
+            "sample": 1277952
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1142490821684,
+            "hit": 266,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 170,
+            "avg_msec": 680,
+            "hit": 57055,
+            "sample": 1310720
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8590160090,
+            "hit": 2,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 165,
+            "avg_msec": 660,
+            "hit": 57321,
+            "sample": 1343488
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8590160090,
+            "hit": 2,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 165,
+            "avg_msec": 660,
+            "hit": 57321,
+            "sample": 1343488
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 161,
+            "avg_msec": 644,
+            "hit": 57323,
+            "sample": 1376256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 161,
+            "avg_msec": 644,
+            "hit": 57323,
+            "sample": 1376256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 161,
+            "avg_msec": 644,
+            "hit": 57323,
+            "sample": 1376256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2267805065263,
+            "hit": 528,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 161,
+            "avg_msec": 644,
+            "hit": 57323,
+            "sample": 1376256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6717516255811,
+            "hit": 1564,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 157,
+            "avg_msec": 628,
+            "hit": 57851,
+            "sample": 1409024
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6717516255811,
+            "hit": 1564,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 157,
+            "avg_msec": 628,
+            "hit": 57851,
+            "sample": 1409024
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8577292509581,
+            "hit": 1997,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 153,
+            "avg_msec": 612,
+            "hit": 59415,
+            "sample": 1441792
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5081092247389,
+            "hit": 1183,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 149,
+            "avg_msec": 596,
+            "hit": 61412,
+            "sample": 1474560
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1099543661046,
+            "hit": 256,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 145,
+            "avg_msec": 580,
+            "hit": 62595,
+            "sample": 1507328
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1099543661046,
+            "hit": 256,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 145,
+            "avg_msec": 580,
+            "hit": 62595,
+            "sample": 1507328
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 30065659349,
+            "hit": 7,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 141,
+            "avg_msec": 564,
+            "hit": 62851,
+            "sample": 1540096
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 138,
+            "avg_msec": 552,
+            "hit": 62858,
+            "sample": 1572864
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 138,
+            "avg_msec": 552,
+            "hit": 62858,
+            "sample": 1572864
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1327185472463,
+            "hit": 309,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 138,
+            "avg_msec": 552,
+            "hit": 62858,
+            "sample": 1572864
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2280697851548,
+            "hit": 531,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 153,
+            "avg_msec": 612,
+            "hit": 63167,
+            "sample": 1605632
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6743309042771,
+            "hit": 1570,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 149,
+            "avg_msec": 596,
+            "hit": 63698,
+            "sample": 1638400
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6743309042771,
+            "hit": 1570,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 149,
+            "avg_msec": 596,
+            "hit": 63698,
+            "sample": 1638400
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8117744800671,
+            "hit": 1890,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 146,
+            "avg_msec": 584,
+            "hit": 65268,
+            "sample": 1671168
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5042453079970,
+            "hit": 1174,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 143,
+            "avg_msec": 572,
+            "hit": 67158,
+            "sample": 1703936
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5042453079970,
+            "hit": 1174,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 143,
+            "avg_msec": 572,
+            "hit": 67158,
+            "sample": 1703936
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1108137504573,
+            "hit": 258,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 140,
+            "avg_msec": 560,
+            "hit": 68332,
+            "sample": 1736704
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 21475541872,
+            "hit": 5,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 137,
+            "avg_msec": 548,
+            "hit": 68590,
+            "sample": 1769472
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 21475541872,
+            "hit": 5,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 137,
+            "avg_msec": 548,
+            "hit": 68590,
+            "sample": 1769472
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 134,
+            "avg_msec": 536,
+            "hit": 68595,
+            "sample": 1802240
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 134,
+            "avg_msec": 536,
+            "hit": 68595,
+            "sample": 1802240
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2431034361485,
+            "hit": 566,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 146,
+            "avg_msec": 584,
+            "hit": 68920,
+            "sample": 1835008
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2431034361485,
+            "hit": 566,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 146,
+            "avg_msec": 584,
+            "hit": 68920,
+            "sample": 1835008
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5832766824421,
+            "hit": 1358,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 143,
+            "avg_msec": 572,
+            "hit": 69486,
+            "sample": 1867776
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 7215796979737,
+            "hit": 1680,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 140,
+            "avg_msec": 560,
+            "hit": 70844,
+            "sample": 1900544
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 7215796979737,
+            "hit": 1680,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 140,
+            "avg_msec": 560,
+            "hit": 70844,
+            "sample": 1900544
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4935091752833,
+            "hit": 1149,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 137,
+            "avg_msec": 548,
+            "hit": 72524,
+            "sample": 1933312
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1254175269782,
+            "hit": 292,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 134,
+            "avg_msec": 536,
+            "hit": 73673,
+            "sample": 1966080
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 12885367665,
+            "hit": 3,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 131,
+            "avg_msec": 524,
+            "hit": 73965,
+            "sample": 1998848
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 12885367665,
+            "hit": 3,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 131,
+            "avg_msec": 524,
+            "hit": 73965,
+            "sample": 1998848
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 128,
+            "avg_msec": 512,
+            "hit": 73968,
+            "sample": 2031616
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 128,
+            "avg_msec": 512,
+            "hit": 73968,
+            "sample": 2031616
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1494704188252,
+            "hit": 348,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 128,
+            "avg_msec": 512,
+            "hit": 73968,
+            "sample": 2031616
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2611437759555,
+            "hit": 608,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 139,
+            "avg_msec": 556,
+            "hit": 74316,
+            "sample": 2064384
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2547011889360,
+            "hit": 593,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 136,
+            "avg_msec": 544,
+            "hit": 74924,
+            "sample": 2097152
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2547011889360,
+            "hit": 593,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 136,
+            "avg_msec": 544,
+            "hit": 74924,
+            "sample": 2097152
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6176398997969,
+            "hit": 1438,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 133,
+            "avg_msec": 532,
+            "hit": 75517,
+            "sample": 2129920
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4535660658156,
+            "hit": 1056,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 130,
+            "avg_msec": 520,
+            "hit": 76955,
+            "sample": 2162688
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1215523195944,
+            "hit": 283,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 128,
+            "avg_msec": 512,
+            "hit": 78011,
+            "sample": 2195456
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1215523195944,
+            "hit": 283,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 128,
+            "avg_msec": 512,
+            "hit": 78011,
+            "sample": 2195456
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 34361093891,
+            "hit": 8,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 126,
+            "avg_msec": 504,
+            "hit": 78294,
+            "sample": 2228224
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 124,
+            "avg_msec": 496,
+            "hit": 78302,
+            "sample": 2260992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 124,
+            "avg_msec": 496,
+            "hit": 78302,
+            "sample": 2260992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 124,
+            "avg_msec": 496,
+            "hit": 78302,
+            "sample": 2260992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2400984401322,
+            "hit": 559,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 124,
+            "avg_msec": 496,
+            "hit": 78302,
+            "sample": 2260992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5197124010955,
+            "hit": 1210,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 122,
+            "avg_msec": 488,
+            "hit": 78861,
+            "sample": 2293760
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5197124010955,
+            "hit": 1210,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 122,
+            "avg_msec": 488,
+            "hit": 78861,
+            "sample": 2293760
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6352520312520,
+            "hit": 1479,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 120,
+            "avg_msec": 480,
+            "hit": 80071,
+            "sample": 2326528
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3899993791665,
+            "hit": 908,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 118,
+            "avg_msec": 472,
+            "hit": 81550,
+            "sample": 2359296
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3899993791665,
+            "hit": 908,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 118,
+            "avg_msec": 472,
+            "hit": 81550,
+            "sample": 2359296
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1224117498250,
+            "hit": 285,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 116,
+            "avg_msec": 464,
+            "hit": 82458,
+            "sample": 2392064
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 21475754415,
+            "hit": 5,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 114,
+            "avg_msec": 456,
+            "hit": 82743,
+            "sample": 2424832
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 21475754415,
+            "hit": 5,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 114,
+            "avg_msec": 456,
+            "hit": 82743,
+            "sample": 2424832
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 112,
+            "avg_msec": 448,
+            "hit": 82748,
+            "sample": 2457600
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 112,
+            "avg_msec": 448,
+            "hit": 82748,
+            "sample": 2457600
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2499780903196,
+            "hit": 582,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 121,
+            "avg_msec": 484,
+            "hit": 83081,
+            "sample": 2490368
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2499780903196,
+            "hit": 582,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 121,
+            "avg_msec": 484,
+            "hit": 83081,
+            "sample": 2490368
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 119,
+            "avg_msec": 476,
+            "hit": 83663,
+            "sample": 2523136
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 119,
+            "avg_msec": 476,
+            "hit": 83663,
+            "sample": 2523136
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 119,
+            "avg_msec": 476,
+            "hit": 83663,
+            "sample": 2523136
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 119,
+            "avg_msec": 476,
+            "hit": 83663,
+            "sample": 2523136
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 119,
+            "avg_msec": 476,
+            "hit": 83663,
+            "sample": 2523136
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 119,
+            "avg_msec": 476,
+            "hit": 83663,
+            "sample": 2523136
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 119,
+            "avg_msec": 476,
+            "hit": 83663,
+            "sample": 2523136
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 19190808296475,
+            "hit": 4468,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 119,
+            "avg_msec": 476,
+            "hit": 83663,
+            "sample": 2523136
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2224897109479,
+            "hit": 518,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 126,
+            "avg_msec": 504,
+            "hit": 90653,
+            "sample": 2555904
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2327981863103,
+            "hit": 542,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 129,
+            "avg_msec": 516,
+            "hit": 91493,
+            "sample": 2588672
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 446697773924,
+            "hit": 104,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 127,
+            "avg_msec": 508,
+            "hit": 92035,
+            "sample": 2621440
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2465429024690,
+            "hit": 574,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 136,
+            "avg_msec": 544,
+            "hit": 92522,
+            "sample": 2654208
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2465429024690,
+            "hit": 574,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 136,
+            "avg_msec": 544,
+            "hit": 92522,
+            "sample": 2654208
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6077671386768,
+            "hit": 1415,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 134,
+            "avg_msec": 536,
+            "hit": 93096,
+            "sample": 2686976
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 103084217587,
+            "hit": 24,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 132,
+            "avg_msec": 528,
+            "hit": 94511,
+            "sample": 2719744
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 130,
+            "avg_msec": 520,
+            "hit": 94535,
+            "sample": 2752512
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 130,
+            "avg_msec": 520,
+            "hit": 94535,
+            "sample": 2752512
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4441215444868,
+            "hit": 1034,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 130,
+            "avg_msec": 520,
+            "hit": 94535,
+            "sample": 2752512
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 7370530514321,
+            "hit": 1716,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 128,
+            "avg_msec": 512,
+            "hit": 95569,
+            "sample": 2785280
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4080423427333,
+            "hit": 950,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 126,
+            "avg_msec": 504,
+            "hit": 97285,
+            "sample": 2818048
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4080423427333,
+            "hit": 950,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 126,
+            "avg_msec": 504,
+            "hit": 97285,
+            "sample": 2818048
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 777428333331,
+            "hit": 181,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 124,
+            "avg_msec": 496,
+            "hit": 98235,
+            "sample": 2850816
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 253415960083,
+            "hit": 59,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 122,
+            "avg_msec": 488,
+            "hit": 98416,
+            "sample": 2883584
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 120,
+            "avg_msec": 480,
+            "hit": 98475,
+            "sample": 2916352
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 120,
+            "avg_msec": 480,
+            "hit": 98475,
+            "sample": 2916352
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 120,
+            "avg_msec": 480,
+            "hit": 98475,
+            "sample": 2916352
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 764543922620,
+            "hit": 178,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 120,
+            "avg_msec": 480,
+            "hit": 98475,
+            "sample": 2916352
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3796950032983,
+            "hit": 884,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 118,
+            "avg_msec": 472,
+            "hit": 98653,
+            "sample": 2949120
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3796950032983,
+            "hit": 884,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 118,
+            "avg_msec": 472,
+            "hit": 98653,
+            "sample": 2949120
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 6820768251556,
+            "hit": 1588,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 116,
+            "avg_msec": 464,
+            "hit": 99537,
+            "sample": 2981888
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5360404460648,
+            "hit": 1248,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 114,
+            "avg_msec": 456,
+            "hit": 101125,
+            "sample": 3014656
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5360404460648,
+            "hit": 1248,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 114,
+            "avg_msec": 456,
+            "hit": 101125,
+            "sample": 3014656
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1563451944817,
+            "hit": 364,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 112,
+            "avg_msec": 448,
+            "hit": 102373,
+            "sample": 3047424
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 648575112283,
+            "hit": 151,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 110,
+            "avg_msec": 440,
+            "hit": 102737,
+            "sample": 3080192
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4295201186,
+            "hit": 1,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 102888,
+            "sample": 3112960
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4295201186,
+            "hit": 1,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 102888,
+            "sample": 3112960
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 102889,
+            "sample": 3145728
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 102889,
+            "sample": 3145728
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 102889,
+            "sample": 3145728
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 592738496135,
+            "hit": 138,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 102889,
+            "sample": 3145728
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3577908482105,
+            "hit": 833,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 104,
+            "avg_msec": 416,
+            "hit": 103027,
+            "sample": 3178496
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5270222707906,
+            "hit": 1227,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 103860,
+            "sample": 3211264
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5270222707906,
+            "hit": 1227,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 103860,
+            "sample": 3211264
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4488496329724,
+            "hit": 1045,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 100,
+            "avg_msec": 400,
+            "hit": 105087,
+            "sample": 3244032
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 106132,
+            "sample": 3276800
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1305745374435,
+            "hit": 304,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 107,
+            "avg_msec": 428,
+            "hit": 113330,
+            "sample": 3309568
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1709496077065,
+            "hit": 398,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 110,
+            "avg_msec": 440,
+            "hit": 122071,
+            "sample": 3342336
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4033209219171,
+            "hit": 939,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 114,
+            "avg_msec": 456,
+            "hit": 129258,
+            "sample": 3375104
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4033209219171,
+            "hit": 939,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 114,
+            "avg_msec": 456,
+            "hit": 129258,
+            "sample": 3375104
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 562673675843,
+            "hit": 131,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 112,
+            "avg_msec": 448,
+            "hit": 130197,
+            "sample": 3407872
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3595099564981,
+            "hit": 837,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 110,
+            "avg_msec": 440,
+            "hit": 130328,
+            "sample": 3440640
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1666546180878,
+            "hit": 388,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 131165,
+            "sample": 3473408
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 131553,
+            "sample": 3506176
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2083183896205,
+            "hit": 485,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 131553,
+            "sample": 3506176
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2680220606399,
+            "hit": 624,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 112,
+            "avg_msec": 448,
+            "hit": 132038,
+            "sample": 3538944
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3165582250793,
+            "hit": 737,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 110,
+            "avg_msec": 440,
+            "hit": 132662,
+            "sample": 3571712
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1825472128914,
+            "hit": 425,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 109,
+            "avg_msec": 436,
+            "hit": 133399,
+            "sample": 3604480
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1825472128914,
+            "hit": 425,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 109,
+            "avg_msec": 436,
+            "hit": 133399,
+            "sample": 3604480
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3526383947135,
+            "hit": 821,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 133824,
+            "sample": 3637248
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1808292565376,
+            "hit": 421,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 107,
+            "avg_msec": 428,
+            "hit": 134645,
+            "sample": 3670016
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 21476166754,
+            "hit": 5,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 135066,
+            "sample": 3702784
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 135071,
+            "sample": 3735552
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 135071,
+            "sample": 3735552
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 135071,
+            "sample": 3735552
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 135071,
+            "sample": 3735552
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1829772175973,
+            "hit": 426,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 135071,
+            "sample": 3735552
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1829772175973,
+            "hit": 426,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 135071,
+            "sample": 3735552
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3053916790243,
+            "hit": 711,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 104,
+            "avg_msec": 416,
+            "hit": 135497,
+            "sample": 3768320
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2345202889057,
+            "hit": 546,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 103,
+            "avg_msec": 412,
+            "hit": 136208,
+            "sample": 3801088
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2345202889057,
+            "hit": 546,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 103,
+            "avg_msec": 412,
+            "hit": 136208,
+            "sample": 3801088
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3199957640953,
+            "hit": 745,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 136754,
+            "sample": 3833856
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2950834636704,
+            "hit": 687,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 101,
+            "avg_msec": 404,
+            "hit": 137499,
+            "sample": 3866624
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 214762434661,
+            "hit": 50,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 100,
+            "avg_msec": 400,
+            "hit": 138186,
+            "sample": 3899392
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 214762434661,
+            "hit": 50,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 100,
+            "avg_msec": 400,
+            "hit": 138186,
+            "sample": 3899392
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 138236,
+            "sample": 3932160
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 138236,
+            "sample": 3932160
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 138236,
+            "sample": 3932160
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 138236,
+            "sample": 3932160
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1855550491445,
+            "hit": 432,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 138236,
+            "sample": 3932160
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2568564025626,
+            "hit": 598,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 98,
+            "avg_msec": 392,
+            "hit": 138668,
+            "sample": 3964928
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2568564025626,
+            "hit": 598,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 98,
+            "avg_msec": 392,
+            "hit": 138668,
+            "sample": 3964928
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1589245954310,
+            "hit": 370,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 97,
+            "avg_msec": 388,
+            "hit": 139266,
+            "sample": 3997696
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2538499313016,
+            "hit": 591,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 139636,
+            "sample": 4030464
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2538499313016,
+            "hit": 591,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 139636,
+            "sample": 4030464
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2624405616096,
+            "hit": 611,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 95,
+            "avg_msec": 380,
+            "hit": 140227,
+            "sample": 4063232
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 236239555323,
+            "hit": 55,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 94,
+            "avg_msec": 376,
+            "hit": 140838,
+            "sample": 4096000
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 236239555323,
+            "hit": 55,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 94,
+            "avg_msec": 376,
+            "hit": 140838,
+            "sample": 4096000
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 140893,
+            "sample": 4128768
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 140893,
+            "sample": 4128768
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 140893,
+            "sample": 4128768
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 140893,
+            "sample": 4128768
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1739585045379,
+            "hit": 405,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 140893,
+            "sample": 4128768
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2727498662927,
+            "hit": 635,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 92,
+            "avg_msec": 368,
+            "hit": 141298,
+            "sample": 4161536
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2727498662927,
+            "hit": 635,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 92,
+            "avg_msec": 368,
+            "hit": 141298,
+            "sample": 4161536
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1258515649332,
+            "hit": 293,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 91,
+            "avg_msec": 364,
+            "hit": 141933,
+            "sample": 4194304
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2422536240311,
+            "hit": 564,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 90,
+            "avg_msec": 360,
+            "hit": 142226,
+            "sample": 4227072
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2873541511183,
+            "hit": 669,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 89,
+            "avg_msec": 356,
+            "hit": 142790,
+            "sample": 4259840
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2873541511183,
+            "hit": 669,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 89,
+            "avg_msec": 356,
+            "hit": 142790,
+            "sample": 4259840
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 309260200374,
+            "hit": 72,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 88,
+            "avg_msec": 352,
+            "hit": 143459,
+            "sample": 4292608
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 87,
+            "avg_msec": 348,
+            "hit": 143531,
+            "sample": 4325376
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 146664,
+            "sample": 4358144
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1657983877874,
+            "hit": 386,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 100,
+            "avg_msec": 400,
+            "hit": 149452,
+            "sample": 4390912
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1683756149109,
+            "hit": 392,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 103,
+            "avg_msec": 412,
+            "hit": 152954,
+            "sample": 4423680
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 927784292490,
+            "hit": 216,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 155703,
+            "sample": 4456448
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 927784292490,
+            "hit": 216,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 155703,
+            "sample": 4456448
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2607247165223,
+            "hit": 607,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 107,
+            "avg_msec": 428,
+            "hit": 155919,
+            "sample": 4489216
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2890737263924,
+            "hit": 673,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 113,
+            "avg_msec": 452,
+            "hit": 156526,
+            "sample": 4521984
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 433825516994,
+            "hit": 101,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 112,
+            "avg_msec": 448,
+            "hit": 157199,
+            "sample": 4554752
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 262013529161,
+            "hit": 61,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 111,
+            "avg_msec": 444,
+            "hit": 157300,
+            "sample": 4587520
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 262013529161,
+            "hit": 61,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 111,
+            "avg_msec": 444,
+            "hit": 157300,
+            "sample": 4587520
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 110,
+            "avg_msec": 440,
+            "hit": 157361,
+            "sample": 4620288
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2757587353919,
+            "hit": 642,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 117,
+            "avg_msec": 468,
+            "hit": 157933,
+            "sample": 4653056
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2757587353919,
+            "hit": 642,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 117,
+            "avg_msec": 468,
+            "hit": 157933,
+            "sample": 4653056
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 833289947647,
+            "hit": 194,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 116,
+            "avg_msec": 464,
+            "hit": 158575,
+            "sample": 4685824
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 42953106118,
+            "hit": 10,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 115,
+            "avg_msec": 460,
+            "hit": 158769,
+            "sample": 4718592
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1855574877757,
+            "hit": 432,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 114,
+            "avg_msec": 456,
+            "hit": 158779,
+            "sample": 4751360
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2074636575471,
+            "hit": 483,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 113,
+            "avg_msec": 452,
+            "hit": 159211,
+            "sample": 4784128
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2074636575471,
+            "hit": 483,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 113,
+            "avg_msec": 452,
+            "hit": 159211,
+            "sample": 4784128
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 42953154243,
+            "hit": 10,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 112,
+            "avg_msec": 448,
+            "hit": 159694,
+            "sample": 4816896
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 111,
+            "avg_msec": 444,
+            "hit": 159704,
+            "sample": 4849664
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 111,
+            "avg_msec": 444,
+            "hit": 159704,
+            "sample": 4849664
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 111,
+            "avg_msec": 444,
+            "hit": 159704,
+            "sample": 4849664
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 111,
+            "avg_msec": 444,
+            "hit": 159704,
+            "sample": 4849664
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1039467885807,
+            "hit": 242,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 111,
+            "avg_msec": 444,
+            "hit": 159704,
+            "sample": 4849664
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2989545254915,
+            "hit": 696,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 110,
+            "avg_msec": 440,
+            "hit": 159946,
+            "sample": 4882432
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2989545254915,
+            "hit": 696,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 110,
+            "avg_msec": 440,
+            "hit": 159946,
+            "sample": 4882432
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 386579286988,
+            "hit": 90,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 109,
+            "avg_msec": 436,
+            "hit": 160642,
+            "sample": 4915200
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 197585050250,
+            "hit": 46,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 160732,
+            "sample": 4947968
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 197585050250,
+            "hit": 46,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 160732,
+            "sample": 4947968
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3827138092710,
+            "hit": 891,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 107,
+            "avg_msec": 428,
+            "hit": 160778,
+            "sample": 4980736
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1301485207346,
+            "hit": 303,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 161669,
+            "sample": 5013504
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2323779657630,
+            "hit": 541,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2323779657630,
+            "hit": 541,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 161972,
+            "sample": 5046272
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1533437484802,
+            "hit": 357,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 104,
+            "avg_msec": 416,
+            "hit": 162513,
+            "sample": 5079040
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 98792931837,
+            "hit": 23,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 103,
+            "avg_msec": 412,
+            "hit": 162870,
+            "sample": 5111808
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 98792931837,
+            "hit": 23,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 103,
+            "avg_msec": 412,
+            "hit": 162870,
+            "sample": 5111808
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 545509022275,
+            "hit": 127,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 162893,
+            "sample": 5144576
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3457755463060,
+            "hit": 805,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 101,
+            "avg_msec": 404,
+            "hit": 163020,
+            "sample": 5177344
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 433830367133,
+            "hit": 101,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 100,
+            "avg_msec": 400,
+            "hit": 163825,
+            "sample": 5210112
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 433830367133,
+            "hit": 101,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 100,
+            "avg_msec": 400,
+            "hit": 163825,
+            "sample": 5210112
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 163926,
+            "sample": 5242880
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 163926,
+            "sample": 5242880
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 163926,
+            "sample": 5242880
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 163926,
+            "sample": 5242880
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1288607173405,
+            "hit": 300,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 163926,
+            "sample": 5242880
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1288607173405,
+            "hit": 300,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 163926,
+            "sample": 5242880
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3384742902058,
+            "hit": 788,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 98,
+            "avg_msec": 392,
+            "hit": 164226,
+            "sample": 5275648
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 219063399865,
+            "hit": 51,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 97,
+            "avg_msec": 388,
+            "hit": 165014,
+            "sample": 5308416
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 94497976088,
+            "hit": 22,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 165065,
+            "sample": 5341184
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 94497976088,
+            "hit": 22,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 165065,
+            "sample": 5341184
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3539380198609,
+            "hit": 824,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 95,
+            "avg_msec": 380,
+            "hit": 165087,
+            "sample": 5373952
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1387403246305,
+            "hit": 323,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 94,
+            "avg_msec": 376,
+            "hit": 165911,
+            "sample": 5406720
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1387403246305,
+            "hit": 323,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 94,
+            "avg_msec": 376,
+            "hit": 165911,
+            "sample": 5406720
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8590735709,
+            "hit": 2,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 93,
+            "avg_msec": 372,
+            "hit": 166234,
+            "sample": 5439488
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 92,
+            "avg_msec": 368,
+            "hit": 166236,
+            "sample": 5472256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 92,
+            "avg_msec": 368,
+            "hit": 166236,
+            "sample": 5472256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 92,
+            "avg_msec": 368,
+            "hit": 166236,
+            "sample": 5472256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 92,
+            "avg_msec": 368,
+            "hit": 166236,
+            "sample": 5472256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 10502191558508,
+            "hit": 2445,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 92,
+            "avg_msec": 368,
+            "hit": 166236,
+            "sample": 5472256
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 5725736369871,
+            "hit": 1333,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 94,
+            "avg_msec": 376,
+            "hit": 169688,
+            "sample": 5505024
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 73021410033,
+            "hit": 17,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 97,
+            "avg_msec": 388,
+            "hit": 172313,
+            "sample": 5537792
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 172330,
+            "sample": 5570560
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3333214949768,
+            "hit": 776,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 173199,
+            "sample": 5603328
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3333214949768,
+            "hit": 776,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 173199,
+            "sample": 5603328
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 12886145087,
+            "hit": 3,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 101,
+            "avg_msec": 404,
+            "hit": 173975,
+            "sample": 5636096
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 382289114257,
+            "hit": 89,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 100,
+            "avg_msec": 400,
+            "hit": 173978,
+            "sample": 5668864
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 174067,
+            "sample": 5701632
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8590771440,
+            "hit": 2,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 174067,
+            "sample": 5701632
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 174069,
+            "sample": 5734400
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3367584916711,
+            "hit": 784,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 174069,
+            "sample": 5734400
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3367584916711,
+            "hit": 784,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 174069,
+            "sample": 5734400
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 635717798125,
+            "hit": 148,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 101,
+            "avg_msec": 404,
+            "hit": 174853,
+            "sample": 5767168
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8590784264,
+            "hit": 2,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 100,
+            "avg_msec": 400,
+            "hit": 175001,
+            "sample": 5799936
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 81612481094,
+            "hit": 19,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 175003,
+            "sample": 5832704
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 81612481094,
+            "hit": 19,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 99,
+            "avg_msec": 396,
+            "hit": 175003,
+            "sample": 5832704
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3075503064431,
+            "hit": 716,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 98,
+            "avg_msec": 392,
+            "hit": 175022,
+            "sample": 5865472
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 515447637284,
+            "hit": 120,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 97,
+            "avg_msec": 388,
+            "hit": 175738,
+            "sample": 5898240
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 175860,
+            "sample": 5931008
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 175860,
+            "sample": 5931008
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 175860,
+            "sample": 5931008
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 175860,
+            "sample": 5931008
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 96,
+            "avg_msec": 384,
+            "hit": 175860,
+            "sample": 5931008
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 8749739194212,
+            "hit": 2037,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 101,
+            "avg_msec": 404,
+            "hit": 176409,
+            "sample": 5963776
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 38658649149,
+            "hit": 9,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 103,
+            "avg_msec": 412,
+            "hit": 178446,
+            "sample": 5996544
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2946649054373,
+            "hit": 686,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 108,
+            "avg_msec": 432,
+            "hit": 179456,
+            "sample": 6029312
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1662322973412,
+            "hit": 387,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 107,
+            "avg_msec": 428,
+            "hit": 180142,
+            "sample": 6062080
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 180529,
+            "sample": 6094848
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 47249521223,
+            "hit": 11,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 180529,
+            "sample": 6094848
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2847858595013,
+            "hit": 663,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 180540,
+            "sample": 6127616
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2847858595013,
+            "hit": 663,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 180540,
+            "sample": 6127616
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4295415076,
+            "hit": 1,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 104,
+            "avg_msec": 416,
+            "hit": 181204,
+            "sample": 6160384
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 4295415076,
+            "hit": 1,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 104,
+            "avg_msec": 416,
+            "hit": 181204,
+            "sample": 6160384
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 107,
+            "avg_msec": 428,
+            "hit": 181205,
+            "sample": 6193152
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 3079814909192,
+            "hit": 717,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 107,
+            "avg_msec": 428,
+            "hit": 181205,
+            "sample": 6193152
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 133158016465,
+            "hit": 31,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 181922,
+            "sample": 6225920
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 133158016465,
+            "hit": 31,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 106,
+            "avg_msec": 424,
+            "hit": 181922,
+            "sample": 6225920
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 12886264464,
+            "hit": 3,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 105,
+            "avg_msec": 420,
+            "hit": 181953,
+            "sample": 6258688
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 2456982028487,
+            "hit": 572,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 104,
+            "avg_msec": 416,
+            "hit": 181956,
+            "sample": 6291456
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 682972532430,
+            "hit": 159,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 103,
+            "avg_msec": 412,
+            "hit": 182528,
+            "sample": 6324224
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 182687,
+            "sample": 6356992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 182687,
+            "sample": 6356992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 182687,
+            "sample": 6356992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 182687,
+            "sample": 6356992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 1829853669874,
+            "hit": 426,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 102,
+            "avg_msec": 408,
+            "hit": 182687,
+            "sample": 6356992
+        }
+    },
+    {
+        "pid": 10516,
+        "now": {
+            "avg_time": 0,
+            "hit": 0,
+            "sample": 32768
+        },
+        "total": {
+            "avg_time": 101,
+            "avg_msec": 404,
+            "hit": 183114,
+            "sample": 6389760
+        }
+    }
+]

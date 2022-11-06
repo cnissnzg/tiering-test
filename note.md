@@ -1,0 +1,1 @@
+sudo cat /sys/devices/system/node/node1/meminfo | grep MemUsed
