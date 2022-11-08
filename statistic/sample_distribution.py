@@ -2,35 +2,40 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 
-with open('10052.json', 'r', encoding='utf-8') as f:
+with open('11849.json', 'r', encoding='utf-8') as f:
     events = json.loads("".join(f.readlines()))
 
-phase_n = 8
+phase_n = 20
 x = []
 y = []
 z = []
 
-for i in range(len(events)-10):
-    p = events[i]['sample_pos'] + phase_n
+for i in range(len(events)):
     y = []
+    z = []
     x = []
-    events[i]['detail'][(p-1)%phase_n]['hit'] += events[i]['detail'][p%phase_n]['hit'] 
-    total,cur = 0.0,0.0
-    for j in range(phase_n-1):
-        cur = events[i]['detail'][(p-j-1)%phase_n]['hit'] * 100.0 / events[i]['detail'][(p-j-1)%phase_n]['sample']
-        total += cur
-        y.append(cur)
-        x.append(str((j+1)*5)+'s')
-    if total < 0.1:
-        continue
-    print(y)
+    flag = False
+    for j in range(phase_n):
+        if flag:
+            break
+        if (events[i]['percent_hit'][j][0] + events[i]['percent_hit'][j][1]) == 0:
+            cur = (events[i]['scan_pages'][0] - events[i]['hit_pages'][0]) / ((events[i]['scan_pages'][1] - events[i]['hit_pages'][1]) + (events[i]['scan_pages'][0] - events[i]['hit_pages'][0])) * 100.0
+            y.append(cur)
+            flag = True
+        else:
+            cur = events[i]['percent_hit'][j][0]  / (events[i]['percent_hit'][j][0] + events[i]['percent_hit'][j][1]) * 100.0
+            y.append(cur)
+        z.append(100.0 - cur)
+        x.append(str((5*j))+'%')
     xpoints = np.array(x)
     ypoints = np.array(y)
-    fig = plt.figure()
-    plt.bar(xpoints,ypoints)
+    zpoints = np.array(z)
+    fig = plt.figure(figsize=(12, 6))
+    plt.bar(xpoints,ypoints,label='DRAM', color = 'royalblue')
+    plt.bar(xpoints,zpoints,label='PMEM', color = 'mediumseagreen',bottom=ypoints)
     plt.title("{} sec distribution graph".format((i+1)*5))
-    plt.ylim(0,30)
-    fig.savefig('./10052_graph/{}.png'.format(i))
+    plt.ylim(0,100)
+    fig.savefig('./11849_graph/{}.png'.format(i))
 
 '''
 xpoints = np.array(x)
