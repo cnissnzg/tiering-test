@@ -9,13 +9,13 @@ runtime: 1800s
 timeout: 7200
 online-aep: 1
 debug-setup: yhnb69
-eatmem:
-  eatmem_size: 60G
-  mem_node_bind: even
-  eatmem_duration: 2000
+#eatmem:
+#  eatmem_size: 60G
+#  mem_node_bind: 1
+#  eatmem_duration: 200000
 autonuma_migration: 
 numactl:
-  all: 1
+  cpunodebind: 0
 transparent_hugepage:
   thp_enabled: never
   thp_defrag: never
@@ -33,7 +33,7 @@ cold: 1
 initialize: 1
 setsize: 8192M
 pmbench:
-  cpu_node_bind: even
+  cpu_node_bind: 0
 cpufreq_governor: performance
 perf-stat:
   per_socket: 1

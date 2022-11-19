@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 
-with open('11849.json', 'r', encoding='utf-8') as f:
+with open('171747_9715.json', 'r', encoding='utf-8') as f:
     events = json.loads("".join(f.readlines()))
 
 phase_n = 20
@@ -35,7 +35,7 @@ for i in range(len(events)):
     plt.bar(xpoints,zpoints,label='PMEM', color = 'mediumseagreen',bottom=ypoints)
     plt.title("{} sec distribution graph".format((i+1)*5))
     plt.ylim(0,100)
-    fig.savefig('./11849_graph/{}.png'.format(i))
+    fig.savefig('./171747_9715_graph/{}.png'.format(i))
 
 '''
 xpoints = np.array(x)
