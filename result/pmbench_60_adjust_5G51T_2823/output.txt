@@ -1,0 +1,80 @@
+ENV_VAR=
+arg#=1
+arg0=/home/yifeng/git/lkp-tests/setup/debug-setup
+arg1=yhnb69
+arg2=
+arg3=
+argv=yhnb69
+param_a=
+param_b=
+param_c=
+param_d=
+job_pwd=
+all_program_env=
+2022-11-28 23:24:13 echo 'never' > /sys/kernel/mm/transparent_hugepage/enabled
+2022-11-28 23:24:13 echo 'never' > /sys/kernel/mm/transparent_hugepage/defrag
+2022-11-28 23:24:13 
+for cpu_dir in /sys/devices/system/cpu/cpu[0-9]*
+do
+	online_file="$cpu_dir"/online
+	[ -f "$online_file" ] && [ "$(cat "$online_file")" -eq 0 ] && continue
+
+	file="$cpu_dir"/cpufreq/scaling_governor
+	[ -f "$file" ] && echo "performance" > "$file"
+done
+
+2022-11-28 23:24:13 echo '2' > '/proc/sys/kernel/numa_balancing'
+2022-11-28 23:24:13 echo '100' > '/proc/sys/vm/swappiness'
+2022-11-28 23:24:13 echo '7' > '/proc/sys/vm/zone_reclaim_mode'
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.1 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.2 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.3 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.4 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.5 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.6 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.7 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.8 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.9 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.10 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.11 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.12 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.13 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.14 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.15 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.16 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.17 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.18 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.19 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.20 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.21 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.22 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.23 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.24 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.25 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.26 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.27 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.28 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.29 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.30 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.31 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.32 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.33 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.34 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.35 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.36 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.37 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.38 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.39 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.40 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.41 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.42 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.43 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.44 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.45 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.46 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.47 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.48 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.49 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.50 &
+2022-11-28 23:24:15 /usr/bin/numactl  --cpunodebind=0 -- /usr/local/bin/pmbench  -s5120 -m5120 -pnormal_ih -j1 -c -i -r80 1800 > /tmp/lkp-root/1/pmbench/pmbench.51 &
+perf version 5.17.rc5.g23d04328444a
